@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es" style="background-color: rgba(220,220,220,0.7);">
+    <head>
+		<!--Metadata is data (information) about data.-->
+		<meta charset="utf-8">
+		<title>Nosotros</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	    <!--BOOTSTRAP MAIN STYLES -->
+	    <link href="assets/css/bootstrap.min-nosotros.css" rel="stylesheet" />
+	    <!--FONTAWESOME MAIN STYLE -->
+	    <link href="assets/css/font-awesome.min-nosotros.css" rel="stylesheet" />
+	    <!--PRETTYPHOTO MAIN STYLE -->
+	    <link href="assets/css/prettyPhoto-nosotros.css" rel="stylesheet" />
+	    <!--CUSTOM STYLE -->
+	    <link href="assets/css/style-nosotros.css" rel="stylesheet" />
+
+	    <style>			
+			/* unvisited link */
+			a.consum:link {
+			    color: white;
+			}
+
+			/* visited link */
+			a.consum:visited {
+			    color: white;
+			}
+
+			/* mouse over link */
+			a.consum:hover {
+			    color: white; 
+			    font-size: 32pt;
+			}
+			
+			/* selected link */
+			a.consum:active {
+			    color: white;
+			}
+			.bullshit{
+          		background-color:rgba(19,193,172,.93); 
+          		font-family: 'Source Sans Pro', sans-serif;
+	            font-size: 30pt;
+	            text-align: left; 
+	            color:#ffffff;
+  			}
+		</style>
+
+    </head>
+
+
+    <body style="background-color: rgba(220,220,220,0.7);">
+		<div class="container-fluid" >
+	    	<div class="row bullshit">
+	    		<a href="MenuPrincipal.html" class="btn-custom" role="button">EleConsum</a>
+	    		<div class="col-sm-5"> 
+	    			<ol class="breadcrumb">
+						<li><a href="MenuPrincipal.html">Menu</a></li>
+						<li class="active">Nosotros</li>
+					</ol>
+	    		</div>
+	    	</div>
+		
+		<!--ABOUT SECTION -->
+		<section id="about-section" style="background-color: #E6E6E6;">
+			<div class="wrap-pad" >
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 ">
+						<div class="text-center">
+							<h1><i class="fa fa-bars small-icons bk-color-consum"></i>Conoce al grupo de trabajo</h1>
+							<!--<p class="lead">
+						   
+							</p>-->
+						</div>
+
+					</div>
+					<!-- ./ Heading div-->
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 margin-top-100  ">
+						<div class="col-md-3 col-sm-6" data-scrollreveal="enter left and move 100px, wait 0.6s">
+							<div class="text-center">
+								<p>
+									<a href="https://github.com/adry0094" target="_blank">
+										<img class="img-responsive img-thumbnail img-circle" style="width:200px;height:200px" src="https://avatars.githubusercontent.	com/adry0094" onmouseover="bigthis(this)" onmouseout="normalthis(this)" border="0" alt=""/>
+									</a>
+								</p>
+								<h3>Adrian</h3>
+								<p>
+									Info
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+							<div class="text-center">
+								<p>
+									<a href="https://github.com/cplanego" target="_blank">
+										<img class="img-responsive img-thumbnail img-circle" style="width:200px;height:200px" src="https://avatars.githubusercontent.	com/cplanego" onmouseover="bigthis(this)" onmouseout="normalthis(this)" border="0" alt=""/>
+									</a>
+								</p>
+								<h3>Carles</h3>
+								<p>
+									Info
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6" data-scrollreveal="enter bottom and move 100px, wait 0.6s">
+							<div class="text-center">
+								<p>
+									<a href="https://github.com/MichaelShakke" target="_blank">
+										<img class="img-responsive img-thumbnail img-circle" style="width:200px;height:200px" src="https://avatars.githubusercontent.	com/michaelshakke" onmouseover="bigthis(this)" onmouseout="normalthis(this)" border="0" alt=""/>
+									</a>
+								</p>
+								<h3>Michael</h3>
+								<p>
+									Info
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6" data-scrollreveal="enter right and move 100px, wait 0.6s">
+							<div class="text-center">
+								<p>
+									<a href="https://github.com/raulgb" target="_blank">
+										<img class="img-responsive img-thumbnail img-circle" style="width:200px;height:200px" src="https://avatars.githubusercontent.	com/raulgb" onmouseover="bigthis(this)" onmouseout="normalthis(this)" border="0" alt=""/>
+									</a>
+								</p>
+								<h3>Raul</h3>
+								<p>
+									Info
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- ./ Content div-->
+				</div>
+			</div>
+		</section>
+		<!--END ABOUT SECTION -->
+
+		<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+		<!-- CORE JQUERY LIBRARY -->
+		<script>
+			function bigthis(x){
+				x.style.width = "215px";
+				x.style.height = "215px";
+			}
+
+			function normalthis(x){
+				x.style.width = "200px";
+				x.style.height = "200px";
+			}
+		</script>
+		<script src="assets/js/jquery.js"></script>
+		<!-- BOOTSTRAP SCRIPTS LIBRARY -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- PRETTYPHOTO  SCRIPTS  LIBRARY-->
+		<script src="assets/js/jquery.prettyPhoto.js"></script>
+		 <!-- SCROLL REVEL  SCRIPTS  LIBRARY-->
+		<script src="assets/js/scrollReveal.js"></script>
+		<!-- CUSTOM SCRIPT-->
+		<script src="assets/scripts/custom.js"></script>
+    </body>
+    <footer>
+	<div id="footer" >
+	    <div id="footer" >&copy; Eleconsum | Web created for study purposes.</div>
+	</div>
+    </footer>
+</html>
